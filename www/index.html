@@ -26,6 +26,7 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
     <!-- Good default declaration:
@@ -43,18 +44,20 @@
 </head>
 
 <body>
+
+  <div class="bg"></div>
     <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
+        <h1>Welcome!</h1>
+        <form class="login">
+          <input type="text" name="Username" value="Mickey"><br>
+          <input type="text" name="Password" value="Mouse"><br>
+          <input type="submit" value="Log in" style="background-color:#2BCBB3;color:white">
+        </form>
+        <p>Not a member? Sign up</p>
+
     </div>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
+
+
 </body>
 
 </html>
