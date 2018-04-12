@@ -1,0 +1,16 @@
+h1 {
+  font-family: Lato;
+  font-size:36px;
+  color: black;
+  font-weight: normal;
+}
+#workout{
+  position: absolute;
+  left: 10%;
+}
+
+#goal{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}

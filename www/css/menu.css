@@ -1,0 +1,39 @@
+h1 {
+  font-family: Lato;
+  font-size:36px;
+  color: black;
+  font-weight: normal;
+}
+#workout{
+  position: absolute;
+  left: 10%;
+}
+
+#goal{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+
+#im1{
+  position: absolute;
+  left: 8.27%;
+  right: 68.53%;
+  top: 18.93%;
+  bottom: 43.2%;
+}
+#im2{
+  position: absolute;
+  left: 37.07%;
+  right: 39.73%;
+  top: 18.93%;
+  bottom: 43.2%;
+}
+
+#im3{
+  position: absolute;
+  left: 65.87%;
+  right: 10.93%;
+  top: 18.93%;
+  bottom: 43.2%;
+}

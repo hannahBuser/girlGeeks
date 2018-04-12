@@ -52,6 +52,18 @@ body, html {
   color: white;
 }
 
+#signupheader{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Lato;
+  font-size:36px;
+  font-weight:bold;
+  color: white;
+
+}
+
 .inputbox {
   opacity: 0.5;
 }
@@ -67,19 +79,7 @@ body, html {
   color: white;
 }
 
-.signuplink{
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: Lato;
-  font-size:16px;
-  font-weight:normal;
-  color: white;
-
-}
-
-.signinlink{
+.link{
   position: absolute;
   top: 65%;
   left: 50%;
@@ -103,17 +103,7 @@ body, html {
 
 }
 
-#signupheader{
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: Lato;
-  font-size:36px;
-  font-weight:bold;
-  color: white;
 
-}
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
