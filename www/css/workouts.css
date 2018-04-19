@@ -1,0 +1,31 @@
+h1{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 36px;
+  text-align: center;
+
+  color: #000000;
+}
+
+h2{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #00A472;
+  background: #E5E5E5;
+}
+
+h3{
+  Font Family: Lato
+  Font Style: Regular
+  Font Size: 24px
+  Line Height: 43px
+  Align: Left
+  Fill: Solid
+  #000000
+}
