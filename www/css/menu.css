@@ -1,32 +1,41 @@
-h1 {
+.app{
   font-family: Lato;
-  font-size:36px;
   color: black;
   font-weight: normal;
 }
+
+h1 {
+  font-size:36px;
+}
+
 #workout{
   position: absolute;
-  left: 10%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
 }
 
 #goal{
   position: absolute;
   top: 45%;
-  left: 20%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
 }
 
 #im1{
   position: absolute;
   left: 8.27%;
   right: 68.53%;
-  top: 18.93%;
+  top: 18%;
   bottom: 43.2%;
 }
+
 #im2{
   position: absolute;
   left: 37.07%;
   right: 39.73%;
-  top: 18.93%;
+  top: 18%;
   bottom: 43.2%;
 }
 
@@ -34,6 +43,102 @@ h1 {
   position: absolute;
   left: 65.87%;
   right: 10.93%;
-  top: 18.93%;
+  top: 18%;
   bottom: 43.2%;
+}
+
+#im4{
+  position: absolute;
+  left: 8.27%;
+  right: 68.53%;
+  top: 36%;
+  bottom: 0.3%;
+}
+
+#im5{
+  position: absolute;
+  left: 37.07%;
+  right: 39.73%;
+  top: 36%;
+  bottom: 0.3%;
+}
+
+#im6{
+  position: absolute;
+  left: 65.87%;
+  right: 10.93%;
+  top: 36%;
+  bottom: 0.3%;
+}
+
+.workoutlist{
+  text-align: center
+}
+
+#wrktxt{
+  position: absolute;
+  top: 55%;
+  left: 25.87%;
+  right: 5%;
+}
+#wrknum{
+  position: absolute;
+  top: 50%;
+  left:10%;
+}
+
+#goaltxt{
+  position: absolute;
+  top: 65%;
+  left: 25.87%;
+  right: 5%;
+}
+#goalnum{
+  position: absolute;
+  top: 60%;
+  left:10%;
+}
+
+#timetxt{
+  position: absolute;
+  top: 77.5%;
+  left: 25.87%;
+  right: 5%;
+}
+#timenum{
+  position: absolute;
+  top: 76%;
+  left: 0%;
+  font-size: 30px;
+}
+
+.numbers{
+  color: #00A472;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.weeklytext{
+  font-size:24px;
+}
+.icon-bar{
+    width: 100%; /* Full-width */
+    background-color: #F2F2F2; /* Dark-grey background */
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #C4C4C4; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+a.active {
+    color: #2BCBB3; /* Add an active/current color */
 }
