@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">    
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- Good default declaration:
+    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    * Create your own at http://cspisawesome.com
+    -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <title>Menu</title>
+</head>
+
+<body>
+    <div class="app">
+        <h1 id="workout">Recent Workouts</h1>
+        <div class="workoutlist">
+          <p id="im1"> Workout Title </p>
+          <p id="im2"> Workout Title </p>
+          <p id="im3"> Workout Title </p>
+          <p id="im4"> Workout Title </p>
+          <p id="im5"> Workout Title </p>
+          <p id="im6"> Workout Title </p>
+        </div>
+        <h1 id ="goal"> Weekly Goal Progress</h1>
+        <div class="weeklytext">
+          <p class="numbers" id="wrknum"> 3 </p>
+          <p id="wrktxt"> Workouts completed  </p>
+          <p class="numbers" id="goalnum"> 5 </p>
+          <p id="goaltxt"> More workouts until your goal </p>
+          <p class="numbers" id="timenum"> 53:00 </p>
+          <p id="timetxt"> Minutes completed </p>
+        </div>
+    </div>
+
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fas fa-trophy"></i></a>
+      <a href="#"><i class="far fa-calendar-alt"></i></a>
+      <a href="#"><i class="far fa-user"></i></a>
+    </div>
+</body>
+
+</html>
