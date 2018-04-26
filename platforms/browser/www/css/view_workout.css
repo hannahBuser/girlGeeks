@@ -7,30 +7,76 @@ h1 {
   color: black;
   width: 100%;
 }
+h2{
+  font-family: Lato;
+}
 
+.current_exercise{
+  font-size: 64px;
+  font-family: Lato;
+  font-weight: normal;
+  margin: 0;
+}
+
+.up_next{
+  font-weight: normal;
+  font-size: 48px;
+}
+.begin{
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+}
+
+.huge_time{
+  font-size: 110px;
+  font-family: Lato;
+  text-align: center;
+  margin: 0;
+}
+
+/* BUTTONS + ICONS */
+div.play_button  {
+  color: green;
+  position: relative;
+  text-align: center;
+}
 .play_button a {
   font-size: 144px;
   color: #00A472;
   position: relative;
   text-align: center;
 }
-div.play_button  {
-  color: green;
-  position: relative;
-  text-align: center;
-}
 
 .fa-play-circle{
-  /*padding: 10px;*/
   text-align: center;
-  margin: auto;
   width: 50%;
+}
+.fa-play{
+  text-align: center;
+  width: 50%;
+}
+div.next_button{
+  float: right;
+  margin-top: 10px;
+}
+.next_button a{
+  font-size: 48px;
+  color: #00A472;
+}
+div.back_button{
+  transform: rotate(180deg);
+  float:left;
+  margin-top: 10px;
+}
+.back_button a{
+  font-size: 48px;
+  color: #00A472;
 }
 
 div.edit_icon{
   text-align: center;
 }
-
 .fa-edit{
   font-size: 30px;
   color: #828282;
@@ -39,14 +85,12 @@ div.edit_icon{
 div.clock{
   text-align: center;
 }
-
 .fa-clock{
   font-size: 36px;
   color: #828282;
-
 }
 
-/*BOXES*/
+/* BOXES */
 .container {
     display: block;
     position: relative;
@@ -69,7 +113,7 @@ div.clock{
     border-color: #00A472;
 }
 
-/*STARS*/
+/* STARS */
 .star {
     visibility:hidden;
     font-size:40px;
@@ -106,7 +150,7 @@ div.clock{
     font-family: Lato;
 }
 
-/*GRID LAYOUT*/
+/* GRID LAYOUT */
 .column {
     float: left;
     width: 33.33%;
