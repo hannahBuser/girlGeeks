@@ -20,39 +20,40 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/menu.css" />
-    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="css/streaks.css" />
+    <title>Streaks</title>
 </head>
-
 <body>
-    <div class="app">
-        <h1 id="workout">Recent Workouts</h1>
-        <div class="workoutlist">
-          <p id="im1"> Workout Title </p>
-          <p id="im2"> Workout Title </p>
-          <p id="im3"> Workout Title </p>
-          <p id="im4"> Workout Title </p>
-          <p id="im5"> Workout Title </p>
-          <p id="im6"> Workout Title </p>
-        </div>
-        <h1 id ="goal"> Weekly Goal Progress</h1>
-        <div class="weeklytext">
-          <p class="numbers" id="wrknum"> 3 </p>
-          <p id="wrktxt"> Workouts completed  </p>
-          <p class="numbers" id="goalnum"> 5 </p>
-          <p id="goaltxt"> More workouts until your goal </p>
-          <p class="numbers" id="timenum"> 53:00 </p>
-          <p id="timetxt"> Minutes completed </p>
-        </div>
+    <div class="month">
+      <ul>
+        <li class="prev">&#10094;</li>
+        <li class="next">&#10095;</li>
+        <li>April<br><span>2018</span></li>
+      </ul>
     </div>
 
-    <div class="icon-bar">
-      <a class="active" href="#"><i class="fa fa-home"></i></a>
-      <a href="#"><i class="fa fa-globe"></i></a>
-      <a href="#"><i class="fas fa-trophy"></i></a>
-      <a href="#"><i class="far fa-calendar-alt"></i></a>
-      <a href="#"><i class="far fa-user"></i></a>
-    </div>
+    <ul class="weekdays">
+      <li>Mo</li>
+      <li>Tu</li>
+      <li>We</li>
+      <li>Th</li>
+      <li>Fr</li>
+      <li>Sa</li>
+      <li>Su</li>
+    </ul>
+
+    <ul class="days">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li><span class="active">10</span></li>
+      <li>11</li>
+    </ul>
 </body>
-
 </html>
