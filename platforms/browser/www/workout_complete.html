@@ -20,15 +20,15 @@
     under the License.
 -->
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
     * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
@@ -39,55 +39,30 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/goals_workouts.css" />
-    <link rel="stylesheet" type="text/css" href="css/nav_bar.css" />
-    <title>Workouts</title>
+    <link rel="stylesheet" type="text/css" href="css/workout_complete.css" />
+    <link rel="stylesheet" type="text/css" href= "css/nav_bar.css"/>
+    <title>Workout Complete</title>
 </head>
 
 <body>
-  <h1 class= "workouts">Workouts
-      <a href= "create_workout.html"><i class="fas fa-plus"></i></a>
-  </h1>
-  <br></br>
-  <br></br>
-  <p class="sectionheader">Favorites</p>
+<div class= "trophy">
+  <i class="fa fa-trophy"></i> 
+</div>
 
+<h1> Workout Complete! </h1>
+</body>
 
-    <label class="starcontainer"><a href="view_workout.html">Workout</a>
-      <input class="star" type="checkbox" style="color: #00A472" > <br/><br/>
-    </label>
-
-    <label class="starcontainer"><a href="view_workout.html">Workout</a>
-      <input class="star" type="checkbox" style="color: #00A472" ><br/><br/>
-    </label>
-
-
-    <label class="starcontainer"><a href="view_workout.html">Workout</a>
-      <input class="star" type="checkbox" style="color: #00A472" ><br/><br/>
-    </label>
-
-
-  <p class="sectionheader">All Saved</p>
-
-  <label class="starcontainer"><a href="view_workout.html">Workout</a>
-    <input class="star" type="checkbox" style="color: #00A472"checked><br/><br/>
-  </label>
-
-  <label class="starcontainer"><a href="view_workout.html">Workout</a>
-    <input class="star" type="checkbox" style="color: #00A472"checked><br/><br/>
-  </label>
-
-  <label class="starcontainer"><a href="view_workout.html">Workout</a>
-    <input class="star" type="checkbox" style="color: #00A472"checked><br/><br/>
-  </label>
 
 <body>
-<div class="icon-bar">
-  <a href="menu.html"><i class="fa fa-home"></i></a>
-  <a class="active" href="workouts.html"><i class="fa fa-globe"></i></a>
-  <a href="goals.html"><i class="fas fa-trophy"></i></a>
-  <a href="#"><i class="far fa-calendar-alt"></i></a>
-  <a href="#"><i class="far fa-user"></i></a>
-</div>
+<!--NAV-BAR-->
+  <div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="workouts.html"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fas fa-trophy"></i></a>
+    <a href="#"><i class="far fa-calendar-alt"></i></a>
+    <a href="#"><i class="far fa-user"></i></a>
+  </div>
+
 </body>
+
 </html>
