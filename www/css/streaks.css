@@ -77,3 +77,13 @@ body {
     border-radius: 50%;
     color: white !important
 }
+
+.sectionheader{
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #E5E5E5;
+  color: #00A472;
+}
