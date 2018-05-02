@@ -20,7 +20,6 @@
     under the License.
 -->
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
@@ -29,6 +28,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
     * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
@@ -39,28 +39,55 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="css/goals_workouts.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav_bar.css" />
+    <title>Workouts</title>
 </head>
 
 <body>
-
-  <div class="bg"></div>
-    <div class="app">
-        <h1 id="signupheader">Sign Up</h1>
-        <form class="signup" action="menu.html">
-          <input type="text" name="Username or Email" value="Username"><br>
-          <input type="text" name="Password" value="Password"><br>
-          <input type="text" name="Select Gender" value="Gender"><br>
-          <input type="text" name="Height" value="Height"><br>
-          <input type="text" name="Weight" value="Weight"><br>
-          <input type="submit" value="Create Account" style="background-color:#2BCBB3; color:white" onclick="menu.html">
-        </form>
-        <p class="link">Already a member? <a href="index.html"> Log in</a></p>
-
-    </div>
+  <h1 class= "workouts">Workouts
+      <i class="fas fa-plus"></i>
+  </h1>
+  <br></br>
+  <br></br>
+  <p class="sectionheader">Favorites</p>
 
 
+    <label class="starcontainer"><a href="view_workout.html">Workout</a>
+      <input class="star" type="checkbox" style="color: #00A472" > <br/><br/>
+    </label>
+
+    <label class="starcontainer"><a href="view_workout.html">Workout</a>
+      <input class="star" type="checkbox" style="color: #00A472" ><br/><br/>
+    </label>
+
+
+    <label class="starcontainer"><a href="view_workout.html">Workout</a>
+      <input class="star" type="checkbox" style="color: #00A472" ><br/><br/>
+    </label>
+
+
+  <p class="sectionheader">All Saved</p>
+
+  <label class="starcontainer"><a href="view_workout.html">Workout</a>
+    <input class="star" type="checkbox" style="color: #00A472"checked><br/><br/>
+  </label>
+
+  <label class="starcontainer"><a href="view_workout.html">Workout</a>
+    <input class="star" type="checkbox" style="color: #00A472"checked><br/><br/>
+  </label>
+
+  <label class="starcontainer"><a href="view_workout.html">Workout</a>
+    <input class="star" type="checkbox" style="color: #00A472"checked><br/><br/>
+  </label>
+
+<body>
+<div class="icon-bar">
+  <a href="menu.html"><i class="fa fa-home"></i></a>
+  <a class="active" href="workouts.html"><i class="fa fa-globe"></i></a>
+  <a href="goals.html"><i class="fas fa-trophy"></i></a>
+  <a href="#"><i class="far fa-calendar-alt"></i></a>
+  <a href="#"><i class="far fa-user"></i></a>
+</div>
 </body>
-
 </html>
