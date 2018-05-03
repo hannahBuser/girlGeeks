@@ -1,7 +1,9 @@
 h2 {
   font-size: 36px;
-  font-family: Lato;
   text-align: center;
+}
+body{
+  font-family: Lato;
 }
 
 #save{
