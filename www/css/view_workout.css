@@ -22,15 +22,37 @@ h3{
   margin: 0;
 }
 
+.exercises{
+  padding-top: 10px;
+}
+
 .up_next{
   font-weight: normal;
   font-size: 48px;
+  padding-top: 205px;
 }
 .begin{
   font-weight: normal;
-  font-size: 48px;
+  font-size: 36px;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.workout_title{
+  margin-top: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.subheader{
+  margin-bottom: 20px;
+}
+.workout_header{
+  text-align: center;
+  font-size: 48px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 }
 
 .huge_time{
@@ -38,13 +60,17 @@ h3{
   font-family: Lato;
   text-align: center;
   margin: 0;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
+
 
 /* BUTTONS + ICONS */
 div.play_button  {
   color: green;
   position: relative;
   text-align: center;
+  padding-top: 10px;
 }
 .play_button a {
   font-size: 144px;
@@ -64,6 +90,7 @@ div.play_button  {
 div.next_button{
   float: right;
   margin-top: 10px;
+  padding-top: 5px;
 }
 .next_button a{
   font-size: 48px;
@@ -73,6 +100,7 @@ div.back_button{
   transform: rotate(180deg);
   float:left;
   margin-top: 10px;
+  padding-bottom: 5px;
 }
 .back_button a{
   font-size: 48px;
@@ -83,7 +111,7 @@ div.edit_icon{
   text-align: center;
 }
 .fa-edit{
-  font-size: 30px;
+  font-size: 32px;
   color: #828282;
 }
 
@@ -123,13 +151,12 @@ div.clock{
     visibility:hidden;
     font-size:40px;
     cursor:pointer;
-    /*top: 0;*/
-    /*left: 50%;*/
     text-align: center;
-    height: 35px;
+    height: 40px;
     width: 35px;
     background-color: #eee;
     color: #F2C94C
+
 }
 .star:before {
    content: "\2605";
@@ -143,8 +170,6 @@ div.clock{
 .starcontainer {
     display: block;
     position: relative;
-    /*padding-left: 100px;*/
-    /*margin-bottom: 12px;*/
     cursor: pointer;
     font-size: 22px;
     text-align: center;
