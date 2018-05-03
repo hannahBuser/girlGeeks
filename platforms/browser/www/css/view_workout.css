@@ -1,14 +1,18 @@
 h1 {
   position: relative;
   text-align: center;
-  font-family: Lato;
   font-size:36px;
   font-weight:bold;
   color: black;
   width: 100%;
 }
-h2{
+body{
   font-family: Lato;
+}
+h3{
+  text-align: center;
+  color: #00A472;
+  font-size: 24px;
 }
 
 .current_exercise{
