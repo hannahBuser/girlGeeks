@@ -1,0 +1,72 @@
+
+.trophy{
+  font-size: 150px;
+  text-align: center;
+  color: #F2C94C;
+  padding-top: 25px;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+h2{
+  font-size:36px;
+}
+
+#goal{
+  position: absolute;
+  top: 55%;
+  left:10%;
+  text-align: center;
+}
+
+#timetxt{
+  position: absolute;
+  top: 80%;
+  left: 25.87%;
+  right: 5%;
+}
+
+#timenum{
+  position: absolute;
+  top: 77%;
+  left: 10%;
+  font-size: 30px;
+}
+
+.numbers{
+  color: #00A472;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.weeklytext{
+  font-size:24px;
+}
+#wrktxt{
+  position: absolute;
+  top: 67.5%;
+  left: 25.87%;
+  right: 5%;
+}
+#wrknum{
+  position: absolute;
+  top: 62.5%;
+  left:10%;
+}
+
+#minutes{
+  position: absolute;
+  left: 5%;
+  font-size: 20px;
+  bottom: 10%;
+  color: #00A472;
+}

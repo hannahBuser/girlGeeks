@@ -5,6 +5,7 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
@@ -27,12 +28,19 @@
     <div class="app">
         <h1 id="workout">Recent Workouts</h1>
         <div class="workoutlist">
-          <p id="im1"> Workout Title </p>
-          <p id="im2"> Workout Title </p>
-          <p id="im3"> Workout Title </p>
-          <p id="im4"> Workout Title </p>
-          <p id="im5"> Workout Title </p>
-          <p id="im6"> Workout Title </p>
+          <img id="img1" src="/img/run.png">
+          <p class="text" id="text1"> Running 1 </p>
+          <a href="view_workout.html">
+          <img id="img2" src="/img/run.png"> </a>
+          <p class="text" id="text2"> Running 2 </p>
+          <img class="core" id="img3" src="/img/core.png">
+          <p class="text" id="text3"> Core 1 </p>
+          <img id="img4" src="/img/run.png">
+          <p class="text" id="text4"> Running 3 </p>
+          <img class="core" id="img5" src="/img/core.png">
+          <p class="text" id="text5"> Core 2 </p>
+          <img class="core" id="img6" src="/img/core.png">
+          <p class="text" id="text6"> Core 3 </p>
         </div>
         <h1 id ="goal"> Weekly Goal Progress</h1>
         <div class="weeklytext">
@@ -40,16 +48,17 @@
           <p id="wrktxt"> Workouts completed  </p>
           <p class="numbers" id="goalnum"> 5 </p>
           <p id="goaltxt"> More workouts until your goal </p>
-          <p class="numbers" id="timenum"> 53:00 </p>
-          <p id="timetxt"> Minutes completed </p>
+          <p class="numbers" id="timenum"> 53</p>
+          <p id="minutes"> minutes </p>
+          <p id="timetxt"> Total time completed </p>
         </div>
     </div>
 
     <div class="icon-bar">
       <a class="active" href="menu.html"><i class="fa fa-home"></i></a>
-      <a href="workouts.html"><i class="fa fa-globe"></i></a>
+      <a href="workouts.html"><i class="far fa-play-circle"></i></a>
       <a href="goals.html"><i class="fas fa-trophy"></i></a>
-      <a href="#"><i class="far fa-calendar-alt"></i></a>
+      <a href="streaks.html"><i class="far fa-calendar-alt"></i></a>
       <a href="#"><i class="far fa-user"></i></a>
     </div>
 </body>

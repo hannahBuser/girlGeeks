@@ -27,7 +27,7 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
     <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
@@ -39,27 +39,41 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="css/add_goal.css" />
+    <link rel="stylesheet" type="text/css" href= "css/nav_bar.css"/>
+    <title>Add Goal</title>
 </head>
 
 <body>
-
-  <div class="bg"></div>
-    <div class="app">
-        <h1 id="signupheader">Sign Up</h1>
-        <form class="signup" action="menu.html">
-          <input type="text" name="Username or Email" value="Username"><br>
-          <input type="text" name="Password" value="Password"><br>
-          <input type="text" name="Select Gender" value="Gender"><br>
-          <input type="text" name="Height" value="Height"><br>
-          <input type="text" name="Weight" value="Weight"><br>
-          <input type="submit" value="Create Account" style="background-color:#2BCBB3; color:white" onclick="menu.html">
-        </form>
-        <p class="link">Already a member? <a href="index.html"> Log in</a></p>
+  <h2> Add Goal </h2>
+  <form class= "add_goal" action= "goals.html" >
+    <div id= "dynamicInput">
+      <input align= "middle" type='text' name='Goal Name' placeholder='Goal Name' id="title"><br>
+      <p class= 'e_title'>Goal Type</p>
+      <select align= "center" name= 'select_exercise' placeholder= "Select Goal Type">
+        <option selected='selected'>Select Goal Type</option>
+        <option value= 'streak'>Streak</option>
+        <option value= 'distance'>Distance</option>
+        <option value= 'duration'>Duration</option>
+      </select></br>
+      <p class= 'e_title'>Goal Details</p>
+      <input align= "middle" type='text' name='Enter goal details' placeholder='Enter goal details' id="details"><br>
 
     </div>
 
+  <input type= "submit" value= "SAVE" id = "save">
+  <input type= "button" onClicK= 'location.href= "goals.html"' value= "CANCEL" id= "cancel">
+  </form>
+
+
+<!--NAV-BAR-->
+  <div class="icon-bar">
+    <a  href="menu.html"><i class="fa fa-home"></i></a>
+    <a href="workouts.html"><i class="far fa-play-circle"></i></a>
+    <a class="active" href="goals.html"><i class="fas fa-trophy"></i></a>
+    <a href="streaks.html"><i class="far fa-calendar-alt"></i></a>
+    <a href="#"><i class="far fa-user"></i></a>
+  </div>
 
 </body>
 
