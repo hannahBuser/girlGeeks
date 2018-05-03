@@ -1,4 +1,7 @@
 /* forms*/
+body{
+  color:DarkSlateGray;
+}
 .heightlabel{
   width: 66%;
   float: left;
@@ -134,6 +137,7 @@ input[type=text], select {
     font-family: Lato;
     background-color: #F2F2F2;
     color: #4F4F4F;
+    border: 1px solid SlateGray;
     align-items: center;
 }
 

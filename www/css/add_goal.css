@@ -1,7 +1,12 @@
+body{
+  font-family: Lato;
+  color: DarkSlateGray;
+}
 h2 {
   font-size: 36px;
   font-family: 'Lato', sans-serif;
   text-align: center;
+
 }
 
 #save{
@@ -55,7 +60,6 @@ h2 {
 .e_title{
   font-family: Lato;
   font-size: 20px;
-  color: black;
   margin-left: 28px;
 }
 
@@ -99,4 +103,8 @@ p.small_labels{
   height: 10px;
   font-size: 25px;
   margin-left: 55px;
+}
+input[type=text] {
+    border: 1px solid SlateGrey;
+
 }

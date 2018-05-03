@@ -1,10 +1,13 @@
+body{
+  color:DarkSlateGray;
+}
+
 h1.workouts {
   position: absolute;
   text-align: center;
   font-family: Lato;
   font-size:36px;
   font-weight:bold;
-  color: black;
   left: 0;
   width: 100%;
   top: 0px;
