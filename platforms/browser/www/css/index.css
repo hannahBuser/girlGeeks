@@ -56,7 +56,6 @@ body, html {
 }
 .login{
   position: absolute;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -73,8 +72,6 @@ input[type=text] {
   padding: 5px;
   margin-top: 10px;
 }
-
-
 
 .link{
   position: absolute;
@@ -107,13 +104,8 @@ input[type=submit]{
   opacity: 1;
   background-color:#2BCBB3;
   color:white;
-
 }
-
-
-
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-    }
+.login_btn{
+  background-color:#2BCBB3;
+  color:white;
 }
