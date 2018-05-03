@@ -20,6 +20,11 @@ h1.workouts {
   color: #00A472;
 }
 
+a{
+  color: #2BCBB3;
+  text-decoration: none;
+}
+
 .button{
   position: absolute;
   text-align: right;
