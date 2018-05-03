@@ -1,0 +1,147 @@
+ul {list-style-type: none;}
+body {
+
+  font-family: Lato;
+  margin: 0px;
+  border: 0px;
+}
+
+/* Month header */
+.month {
+
+    width: 100%;
+    background: #00A472;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.4%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.4%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size:22px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 10px;
+    background: #00A472;
+    border-radius: 50%;
+    color: white !important
+}
+p{
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.sectionheader{
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #E5E5E5;
+  color: #00A472;
+  padding-left: 0px;
+}
+
+.event-indicator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #00A472;
+
+}
+#one{
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+#two{
+  position: relative;
+  top: 45px;
+  left: 184px;
+}
+img{
+  width: 50px;
+  height: 50px;
+  left: 7%;
+  position: relative;
+}
+
+.text{
+  color: #00A472;
+  font-size: 16px;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #F2F2F2; /* Dark-grey background */
+    bottom: 0;
+    left:0;
+    position: fixed;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #C4C4C4; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+
+a.active {
+    color: #2BCBB3; /* Add an active/current color */
+}

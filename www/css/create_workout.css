@@ -1,0 +1,91 @@
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+body{
+  font-family: Lato;
+}
+
+#save{
+  width: 235px;
+  height: 54px;
+  background-color: #00A472;
+  color: #F2F2F2;
+  font-size: 24px;
+  font-family: Lato;
+  font-style: bold;
+  border-radius: 7px;
+  margin-bottom: 65px;
+}
+
+#cancel{
+  height: 54px;
+  background-color: #828282;
+  width: 115px;
+  color: #000000;
+  font-size: 24px;
+  font-family: Lato;
+  font-style: bold;
+  border-radius: 7px;
+  margin-bottom: 65px;
+}
+
+#title{
+  text-align: center;
+  width: 250px;
+  height: 45px;
+  background-color: rgba(242, 242, 242, 0.6);
+  font-size: 24px;
+  color: #4F4F4F;
+  border-radius: 5px;
+  margin-left: 55px;
+}
+
+.e_title{
+  font-family: Lato;
+  font-size: 20px;
+  color: black;
+  margin-left: 28px;
+}
+
+select{
+  color: #4F4F4F;
+  background-color: rgba(242, 242, 242, 0.6);
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 55px;
+}
+
+select.units{
+  width: 50px;
+}
+
+p.small_labels{
+  font-family: Lato;
+  font-size: 18px;
+  margin-left: 55px;
+}
+
+.time{
+  width: 167px;
+  height: 35px;
+  background-color: rgba(242, 242, 242, 0.6);
+  border-radius: 5px;
+}
+
+.number{
+  width: 37px;
+  height: 35px;
+  background-color: rgba(242, 242, 242, 0.6);
+  border-radius: 5px;
+}
+
+.fa-plus{
+  color: #00A472;
+  width: 10px;
+  height: 10px;
+  font-size: 25px;
+  margin-left: 55px;
+}

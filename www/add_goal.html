@@ -26,7 +26,7 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
     <!-- Good default declaration:
@@ -39,38 +39,41 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/workout_complete.css" />
+    <link rel="stylesheet" type="text/css" href="css/add_goal.css" />
     <link rel="stylesheet" type="text/css" href= "css/nav_bar.css"/>
-    <title>Workout Complete</title>
+    <title>Add Goal</title>
 </head>
 
 <body>
-<div class= "trophy">
-  <i class="fa fa-trophy"></i>
-</div>
+  <h2> Add Goal </h2>
+  <form class= "add_goal" action= "goals.html" >
+    <div id= "dynamicInput">
+      <input align= "middle" type='text' name='Goal Name' placeholder='Goal Name' id="title"><br>
+      <p class= 'e_title'>Goal Type</p>
+      <select align= "center" name= 'select_exercise' placeholder= "Select Goal Type">
+        <option selected='selected'>Select Goal Type</option>
+        <option value= 'streak'>Streak</option>
+        <option value= 'distance'>Distance</option>
+        <option value= 'duration'>Duration</option>
+      </select></br>
+      <p class= 'e_title'>Goal Details</p>
+      <input align= "middle" type='text' name='Enter goal details' placeholder='Enter goal details' id="details"><br>
 
-<h1> Workout Complete! </h1>
-<h2 id ="goal"> Goal Progress</h2>
-<div class="weeklytext">
-  <p class="numbers" id="wrknum"> 3 </p>
-  <p id="wrktxt"> Workouts Completed  </p>
-  <p class="numbers" id="timenum"> 53 </p>
+    </div>
 
-  <p id="timetxt"> Total Time Completed</p>
-  <p class="numbers"id="minutes"> minutes </p>
-</div>
-</body>
+  <input type= "submit" value= "SAVE" id = "save">
+  <input type= "button" onClicK= 'location.href= "goals.html"' value= "CANCEL" id= "cancel">
+  </form>
 
 
-<body>
 <!--NAV-BAR-->
-<div class="icon-bar">
-  <a href="menu.html"><i class="fa fa-home"></i></a>
-  <a class="active" href="workouts.html"><i class="fas fa-trophy"></i></a>
-  <a href="goals.html"><i class="far fa-play-circle"></i></a>
-  <a href="streaks.html"><i class="far fa-calendar-alt"></i></a>
-  <a href="profile.html"><i class="far fa-user"></i></a>
-</div>
+  <div class="icon-bar">
+    <a  href="menu.html"><i class="fa fa-home"></i></a>
+    <a class="active" href="goals.html"><i class="fas fa-trophy"></i></a>
+    <a href="workouts.html"><i class="far fa-play-circle"></i></a>
+    <a href="streaks.html"><i class="far fa-calendar-alt"></i></a>
+    <a href="profile.html"><i class="far fa-user"></i></a>
+  </div>
 
 </body>
 
