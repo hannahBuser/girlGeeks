@@ -41,17 +41,17 @@
 
     <link rel="stylesheet" type="text/css" href="css/create_workout.css" />
     <link rel="stylesheet" type="text/css" href= "css/nav_bar.css"/>
-    <title>Workout Complete</title>
+    <title>Edit Workout</title>
 </head>
 
 <body>
-  <h2> Create Workout </h2>
-  <form class= "create_workout" action= "workouts.html" >
+  <h2> Edit Workout </h2>
+  <form class= "create_workout" action= "view_workout.html" >
     <div id= "dynamicInput">
-      <input align= "middle" type='text' name='Workout Name' placeholder='Workout Name' id="title"><br>
+      <input align= "middle" type='text' name='Workout Name' value='Circuit 1' id="title"><br>
       <p class= 'e_title'>Exercise 1</p>
       <select align= "center" name= 'select_exercise' placeholder= "Select Exercise">
-        <option selected='selected'>Select Exercise</option>
+        <option selected='selected'>Squats</option>
         <option value= 'burpees'>Burpees</option>
         <option value= 'running'>Running</option>
         <option value= 'pushups'>Push-ups</option>
@@ -63,17 +63,84 @@
       <p class= "small_labels">Distance: <input class= "number" type= 'number' name= 'distance'><select class= "units" name="select_unit">
         <option value= 'mi'>mi</option>
         <option value= 'km'>km</option> </select> </p>
-      <p class= "small_labels">Number of Reps: <input class= "number" type= 'number' name= 'reps'></p>
-      <p class= "small_labels">Rest time: <input class= "time" type= 'time' name = 'rest'></p>
-    </div>
-    <i class="fas fa-plus" onClick= "addInput('dynamicInput');"></i> <p style= "display:inline" class= 'small_labels'>Add another exercise!</p> </br></br>
+      <p class= "small_labels">Number of Reps: <input class= "number" type= 'number' name= 'reps' value= 20></p>
+      <p class= "small_labels">Rest time: <input class= "time" type= 'time' name = 'rest' value= 00:30></p>
+
+    <p class= 'e_title'>Exercise 2</p>
+    <select align= "center" name= 'select_exercise' placeholder= "Select Exercise">
+      <option selected='selected'>Running</option>
+      <option value= 'burpees'>Burpees</option>
+      <option value= 'pushups'>Push-ups</option>
+      <option value= 'situps'>Sit-ups</option>
+      <option value= 'jumprope'>Jump Roping</option>
+      <option value= 'vups'>V-ups</option>
+    </select></br>
+    <p class= "small_labels">Duration: <input class= "time" type= 'time' name= 'duration'></p>
+    <p class= "small_labels">Distance: <input class= "number" type= 'number' name= 'distance' value= 0.5><select class= "units" name="select_unit">
+      <option value= 'mi'>mi</option>
+      <option value= 'km'>km</option> </select> </p>
+    <p class= "small_labels">Number of Reps: <input class= "number" type= 'number' name= 'reps'></p>
+    <p class= "small_labels">Rest time: <input class= "time" type= 'time' name = 'rest' value= 00:30></p>
+
+  <p class= 'e_title'>Exercise 3</p>
+  <select align= "center" name= 'select_exercise'>
+    <option selected='selected'>Burpees</option>
+    <option value= 'running'>Running</option>
+    <option value= 'pushups'>Push-ups</option>
+    <option value= 'situps'>Sit-ups</option>
+    <option value= 'jumprope'>Jump Roping</option>
+    <option value= 'vups'>V-ups</option>
+  </select></br>
+  <p class= "small_labels">Duration: <input class= "time" type= 'time' name= 'duration'></p>
+  <p class= "small_labels">Distance: <input class= "number" type= 'number' name= 'distance'><select class= "units" name="select_unit">
+    <option value= 'mi'>mi</option>
+    <option value= 'km'>km</option> </select> </p>
+  <p class= "small_labels">Number of Reps: <input class= "number" type= 'number' name= 'reps' value= 15></p>
+  <p class= "small_labels">Rest time: <input class= "time" type= 'time' name = 'rest' value= 00:30></p>
+
+<p class= 'e_title'>Exercise 4</p>
+<select align= "center" name= 'select_exercise' placeholder= "Select Exercise">
+  <option selected='selected'>Squats</option>
+  <option value= 'burpees'>Burpees</option>
+  <option value= 'running'>Running</option>
+  <option value= 'pushups'>Push-ups</option>
+  <option value= 'situps'>Sit-ups</option>
+  <option value= 'jumprope'>Jump Roping</option>
+  <option value= 'vups'>V-ups</option>
+</select></br>
+<p class= "small_labels">Duration: <input class= "time" type= 'time' name= 'duration' </p>
+<p class= "small_labels">Distance: <input class= "number" type= 'number' name= 'distance'><select class= "units" name="select_unit" >
+  <option value= 'mi'>mi</option>
+  <option value= 'km'>km</option> </select> </p>
+<p class= "small_labels">Number of Reps: <input class= "number" type= 'number' name= 'reps' value=25></p>
+<p class= "small_labels">Rest time: <input class= "time" type= 'time' value= 00:30 name = 'rest'></p>
+<p class= 'e_title'>Exercise 5</p>
+<select align= "center" name= 'select_exercise' placeholder= "Select Exercise">
+  <option selected='selected'>Crunches</option>
+  <option value= 'burpees'>Burpees</option>
+  <option value= 'running'>Running</option>
+  <option value= 'pushups'>Push-ups</option>
+  <option value= 'situps'>Sit-ups</option>
+  <option value= 'jumprope'>Jump Roping</option>
+  <option value= 'vups'>V-ups</option>
+</select></br>
+<p class= "small_labels">Duration: <input class= "time" type= 'time' name= 'duration'></p>
+<p class= "small_labels">Distance: <input class= "number" type= 'number' name= 'distance'><select class= "units" name="select_unit">
+  <option value= 'mi'>mi</option>
+  <option value= 'km'>km</option> </select> </p>
+<p class= "small_labels">Number of Reps: <input class= "number" type= 'number' name= 'reps' value= 30></p>
+<p class= "small_labels">Rest time: <input class= "time" type= 'time' name = 'rest' value= 00:30></p>
+</div>
+  <i class="fas fa-plus" onClick= "addInput('dynamicInput');"></i> <p style= "display:inline" class= 'small_labels'>Add another exercise!</p> </br></br>
+
 
   <input type= "submit" value= "SAVE" id = "save">
   <input type= "button" onClicK= 'location.href= "workouts.html"' value= "CANCEL" id= "cancel">
   </form>
 
   <script>
-    var counter = 1;
+    var counter = 5;
+    var limit = 3;
     function addInput(divName){
         var newdiv = document.createElement('div');
         newdiv.innerHTML = "<p class= 'e_title'> Exercise " + (counter + 1) + "</br>"+
