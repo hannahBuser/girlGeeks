@@ -22,53 +22,85 @@ h1 {
   right: 0%;
   text-align: center;
 }
+img{
+  width: 70px;
+  height: 70px;
+}
+.core{
+  width: 60px;
+  height: 60px;
 
-#im1{
+}
+.text{
+  color: #00A472;
+}
+#img1{
   position: absolute;
-  left: 8.27%;
-  right: 68.53%;
-  top: 18%;
-  bottom: 43.2%;
+  left: 10%;
+  top: 12%;
+}
+#text1{
+  position: absolute;
+  left: 10%;
+  text-align: center;
+  top: 20%;
+}
+#img2{
+  position: absolute;
+  left: 43%;
+  top: 12%;
+}
+#text2{
+  position: absolute;
+  left: 43%;
+  top: 20%;
+}
+#img3{
+  position: absolute;
+  right: 10%;
+  top: 12%;
 }
 
-#im2{
+#text3{
   position: absolute;
-  left: 37.07%;
-  right: 39.73%;
-  top: 18%;
-  bottom: 43.2%;
+  right: 10%;
+  top: 20%;
 }
 
-#im3{
+#img4{
   position: absolute;
-  left: 65.87%;
-  right: 10.93%;
-  top: 18%;
-  bottom: 43.2%;
+  left: 10%;
+  top: 28%;
 }
 
-#im4{
+#text4{
   position: absolute;
-  left: 8.27%;
-  right: 68.53%;
+  left: 10%;
   top: 36%;
-  bottom: 0.3%;
 }
 
-#im5{
+#img5{
   position: absolute;
-  left: 37.07%;
-  right: 39.73%;
-  top: 36%;
-  bottom: 0.3%;
+  left: 43%;
+  top: 28%;
 }
 
-#im6{
+#text5{
   position: absolute;
-  left: 65.87%;
-  right: 10.93%;
+  left: 45%;
   top: 36%;
-  bottom: 0.3%;
+}
+
+#img6{
+  position: absolute;
+  right: 10%;
+  top: 28%;
+}
+
+#text6{
+  position: absolute;
+  right:10%;
+  top: 36%;
 }
 
 .workoutlist{
@@ -108,7 +140,7 @@ h1 {
 #timenum{
   position: absolute;
   top: 76%;
-  left: 0%;
+  left: 2%;
   font-size: 30px;
 }
 
