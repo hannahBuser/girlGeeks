@@ -39,15 +39,38 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
-    <link rel="stylesheet" type="text/css" href="css/nav_bar.css" />
-    <title>Nav Bar</title>
+    <link rel="stylesheet" type="text/css" href="css/add_goal.css" />
+    <link rel="stylesheet" type="text/css" href= "css/nav_bar.css"/>
+    <title>Add Goal</title>
 </head>
 
 <body>
+  <h2> Add Goal </h2>
+  <form class= "add_goal" action= "goals.html" >
+    <div id= "dynamicInput">
+      <input align= "middle" type='text' name='Goal Name' placeholder='Goal Name' id="title"><br>
+      <p class= 'e_title'>Goal Type</p>
+      <select align= "center" name= 'select_exercise' placeholder= "Select Goal Type">
+        <option selected='selected'>Select Goal Type</option>
+        <option value= 'streak'>Streak</option>
+        <option value= 'distance'>Distance</option>
+        <option value= 'duration'>Duration</option>
+      </select></br>
+      <p class= 'e_title'>Goal Details</p>
+      <input align= "middle" type='text' name='Enter goal details' placeholder='Enter goal details' id="details"><br>
+
+    </div>
+
+  <input type= "submit" value= "SAVE" id = "save">
+  <input type= "button" onClicK= 'location.href= "goals.html"' value= "CANCEL" id= "cancel">
+  </form>
+
+
+<!--NAV-BAR-->
   <div class="icon-bar">
-    <a class="active" href="menu.html"><i class="fa fa-home"></i></a>
-    <a href="goals.html"><i class="fa fa-globe"></i></a>
-    <a href="workouts.html"><i class="fas fa-trophy"></i></a>
+    <a  href="menu.html"><i class="fa fa-home"></i></a>
+    <a href="workouts.html"><i class="fa fa-globe"></i></a>
+    <a class="active" href="goals.html"><i class="fas fa-trophy"></i></a>
     <a href="streaks.html"><i class="far fa-calendar-alt"></i></a>
     <a href="#"><i class="far fa-user"></i></a>
   </div>

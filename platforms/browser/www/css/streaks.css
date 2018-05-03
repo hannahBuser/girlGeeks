@@ -1,6 +1,7 @@
 ul {list-style-type: none;}
 body {
-  font-family: Verdana, sans-serif;
+
+  font-family: Lato;
   margin: 0px;
   border: 0px;
 }
@@ -9,7 +10,7 @@ body {
 .month {
 
     width: 100%;
-    background: #1abc9c;
+    background: #00A472;
     text-align: center;
 }
 
@@ -47,7 +48,7 @@ body {
 
 .weekdays li {
     display: inline-block;
-    width: 12.9%;
+    width: 13.4%;
     color: #666;
     text-align: center;
 }
@@ -62,7 +63,7 @@ body {
 .days li {
     list-style-type: none;
     display: inline-block;
-    width: 12.9%;
+    width: 13.4%;
     text-align: center;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -73,9 +74,13 @@ body {
 /* Highlight the "current" day */
 .days li .active {
     padding: 10px;
-    background: #1abc9c;
+    background: #00A472;
     border-radius: 50%;
     color: white !important
+}
+p{
+  font-size: 22px;
+  padding-left: 10px;
 }
 
 .sectionheader{
@@ -86,4 +91,52 @@ body {
   width: 100%;
   background-color: #E5E5E5;
   color: #00A472;
+  padding-left: 0px;
+}
+
+.event-indicator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #00A472;
+
+}
+#one{
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+#two{
+  position: relative;
+  top: 45px;
+  left: 184px;
+}
+img{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #F2F2F2; /* Dark-grey background */
+    bottom: 0;
+    left:0;
+    position: fixed;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #C4C4C4; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+
+a.active {
+    color: #2BCBB3; /* Add an active/current color */
 }
